@@ -1,6 +1,4 @@
-import puzInput from './inputs/day-one-puz-one-input.json';
-import * as puzzleOne from './puzzles/day-one';
+import input from './inputs/day-four.json';
+import * as puz from './puzzles/day-four';
 
-const results = puzzleOne.puzTwoWindows(puzInput);
-const count = puzzleOne.countIncreses(results);
-console.log(count);
+console.log(puz.puzTwo(input));
